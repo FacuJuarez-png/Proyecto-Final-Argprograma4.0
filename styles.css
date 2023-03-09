@@ -1,0 +1,93 @@
+*{margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; 
+
+}
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px
+  
+}
+
+h2{
+  font-size: 25px;
+ 
+}
+
+#skills-cv{
+  font-size: 25px;
+  font-weight: bold;
+}
+#lista{
+  margin-left: 20px;
+}
+
+#boton{
+  width: auto;
+  background-color: #5A5B70;
+  border: none;
+  color: white;
+  margin-left: 20px;
+}
+#demo{
+  margin-left: 20px;
+  color: white;
+}
+.desc {
+  font-size: 20px;
+  grid-area: b ;
+
+  
+}
+.img {
+  height: auto;
+}
+
+.experiencia{
+  margin-left: 20px;
+}
+.trabajos{
+  grid-area: d;
+}
+.skills{
+  grid-area: t;
+  
+
+}
+.container-tit  {
+  grid-area: a;
+  
+  }
+.container-img{ 
+   text-align: left;
+   grid-area: z;
+   width: 50px;
+    
+  
+  
+  }
+
+  .container-tit h2{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px
+  }
+.container-tit{
+  background-color: #5A5B70;
+  height: 250px;
+}
+.container-main {
+  display: grid;
+  grid-template-columns: 250px auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "z a a a"
+  "b b b b"
+  "d d d t" ;
+  margin: 0px 0px 30px 20px;
+  
+
+}
